@@ -237,7 +237,7 @@ def main():
         plaintext += '0' * (16 - (len(plaintext) % 16)) if len(plaintext) > 16 else ''
         plaintext_bytes = plaintext.encode('utf-8')
         print("plaintext (Hex):", binascii.hexlify(plaintext_bytes).decode('utf-8'))
-        key =input("Enter the key: ")
+        key =input("Enter the key: " )
         key_bytes = pad_or_truncate(key.encode('utf-8'))
         print("Key(Hex):", binascii.hexlify(key_bytes).decode('utf-8'))
         plaintext_bytes = [byte for byte in plaintext_bytes]  # Convert bytes to list of integers
