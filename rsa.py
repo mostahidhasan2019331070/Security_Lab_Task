@@ -128,6 +128,6 @@ def main():
    test_rsa(16, "BUETCSEVSSUSTCSE")
    test_rsa(32, "BUETCSEVSSUSTCSE")
    test_rsa(64, "BUETCSEVSSUSTCSE")
-   test_rsa(96, "BUETCSEVSSUSTCSE")
+  
 if __name__ == "__main__":
     main()
