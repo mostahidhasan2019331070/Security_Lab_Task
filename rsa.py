@@ -120,7 +120,6 @@ def test_rsa(k, plaintext):
     print(f"Key Generation Time: {key_generation_time} seconds")
     print(f"Encryption Time: {encryption_time} seconds")
     print(f"Decryption Time: {decryption_time} seconds")
-    print()
 
 # Test with different key lengths and plaintext
 def main():
