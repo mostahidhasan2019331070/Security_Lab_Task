@@ -123,7 +123,7 @@ def test_rsa(k, plaintext):
 
 # Test with different key lengths and plaintext
 def main():
-
+   test_rsa(8,"BUETCSEVSSUSTCSE")
    test_rsa(16, "BUETCSEVSSUSTCSE")
    test_rsa(32, "BUETCSEVSSUSTCSE")
    test_rsa(64, "BUETCSEVSSUSTCSE")
