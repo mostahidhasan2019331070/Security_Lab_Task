@@ -74,7 +74,7 @@ def main():
         with open(file_path3,'w') as file:
             file.write(ciphertext_key)
 
-        print("-----------------------------------------------------------------------------------------")
+        print("-------------------------------------------------------------------------------")
         # Ask the user if they want to continue
         ok = input("Continue? (yes/no): ")
         # choice="sdff"
