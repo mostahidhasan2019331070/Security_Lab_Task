@@ -1,0 +1,13 @@
+aes.py is Task-01
+rsa.py is Task-02
+Run of this two files:
+----------------------------------------------------------------------------------------------
+Install python if there is no python compiler in your local PC
+Then run using terminal(python aes.py or python3 aes.py depending on compiler) or using extension
+-----------------------------------------------------------------------------------------------------
+Running manual of Task-03(Alice.py,Bob.py,match_it.py):
+-------------------------------------------------------------------------------------------------
+Install python if there is no python compiler in your local PC.
+Run first Alice.py ,then run match_it.Because match_it run Bob.py also
+
+-------------------------------------------------------------------------------------------------
